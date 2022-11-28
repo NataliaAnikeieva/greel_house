@@ -1,0 +1,89 @@
+$fs-lg: 60px; 
+$fs-45: 45px;
+$fs-40: 40px;
+$fs-md: 30px; 
+$fs-sm: 23px;
+$main-font: "Open Sans"; 
+$secondary-font: "Fjalla One"; 
+$color1: #fff; 
+$color2: #f0b922; 
+$color3: #262626;
+$bgc1: #f0b922;
+$bgc2: #262626;
+
+.body {
+    color: $color1;
+    font-family: $main-font;
+    font-size: $fs-md;
+}
+
+.navigation__link {
+    color: $color2;
+    font-family:  $main-font;
+    font-size: $fs-md;
+
+    &:hover{
+        background-color: $bgc1;
+        color: $color3;
+    }
+    
+}
+
+// ===========================================
+.table__party {
+    background-color: $color2;
+    
+}
+
+.party__title {
+    color: $color3;
+    font-family: $main-font;
+    font-size: $fs-45;
+}
+
+.party__time {
+    color: $color1;
+    font-family: $main-font;
+    font-size: $fs-40;
+}
+
+.party__text {
+    color: $color1;
+    font-family: $main-font;
+    font-size: $fs-45;
+}
+
+// ========================
+.grey__container {
+    
+    background-color: $bgc2;
+}
+
+// ========================
+
+.menu__title {
+    color: $color1;
+    font-family: $secondary-font;
+    font-size: $fs-lg;
+}
+
+.menu__list-title{
+    color: $color3;
+    font-family: $main-font;
+    font-size: $fs-md;
+    background-color: $bgc1;
+}
+
+
+.menu__cards-title {
+    color: $color3;
+    background-color: $bgc1;
+    font-size: $fs-md;
+    font-family: $main-font;
+}
+
+.menu__cards-dish {
+    color: $color1;
+    font-size: $fs-sm;
+    font-family: $main-font;
+}
