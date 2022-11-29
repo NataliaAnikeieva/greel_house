@@ -28,6 +28,12 @@ $bgc2: #262626;
     }
     
 }
+@media (max-width: 1200px) {
+    
+    .navigation__link {
+        font-size: $fs-sm;
+    }
+    }
 
 // ===========================================
 .table__party {
@@ -41,6 +47,7 @@ $bgc2: #262626;
     font-size: $fs-45;
 }
 
+
 .party__time {
     color: $color1;
     font-family: $main-font;
@@ -53,13 +60,23 @@ $bgc2: #262626;
     font-size: $fs-45;
 }
 
-// ========================
-.grey__container {
+@media (max-width: 1200px) {
     
-    background-color: $bgc2;
-}
+    .party__title {
+        font-size: $fs-md;
+    }
 
+    .party__time {
+        font-size: $fs-md;
+    }
+    .party__text {
+        font-size: $fs-40;
+    }
+
+    }
 // ========================
+
+
 
 .menu__title {
     color: $color1;

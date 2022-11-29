@@ -1,8 +1,6 @@
 
 html,body {
     height: 100%;
-    
-
 }
 
 .body {
@@ -23,10 +21,39 @@ main {
 
 [class*="__container"] {
     max-width: 1440px;
-    margin: 0 auto;
-    
-   
+    margin: 0 auto;  
 }
+
+
+@media (max-width: 1200px) {
+    
+[class*="__container"] {
+    max-width: 1024px;
+}
+}
+
+@media (max-width: 992px) {
+    
+    [class*="__container"] {
+        max-width: 768px;
+    }
+}
+@media (max-width: 780px) {
+    
+    [class*="__container"] {
+        max-width: 578px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    
+    [class*="__container"] {
+        max-width: 320px;
+    }
+}
+
+
 
 
 
@@ -38,9 +65,7 @@ main {
 .header__container {
     display: flex;
     background-color: #262626;
-    align-items: center; 
-    
-    
+    align-items: center;   
 }
 
 
@@ -50,9 +75,15 @@ main {
     padding: 50px 70px 50px 100px;
     &:hover {
         opacity: 0.8;
-    }
-    
+    }   
 }
+
+@media (max-width: 1200px) {
+    
+    .header__logo {
+        padding: 30px 50px 30px 80px
+    }
+    }
 
  .navigation__list {
     display: flex;
@@ -60,6 +91,12 @@ main {
     padding: 20px 0;
     margin-right: 100px; 
 }
+@media (max-width: 1200px) {
+    
+    .navigation__list {
+        padding: 10px 0;
+    }
+    }
 
 .navigation__item {   
 }
@@ -69,6 +106,13 @@ main {
     padding: 20px 45px;
     font-weight: 400;   
 }
+@media (max-width: 1200px) {
+    
+    .navigation__link {
+        padding: 10px 20px;
+    }
+    }
+
 
 .humburger {
     width: 50px;
@@ -150,10 +194,10 @@ main {
 .party__section {
     display: flex;
     overflow: hidden;  
-    position: relative;
-    height: 660px;
+    position: relative; 
     border-bottom: 60px solid #262626;
 }
+
 
 .left__image {
     position: absolute;
@@ -165,9 +209,10 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-width: 52%;
     align-items: center;
-    max-width: 52%;
     margin-left: 400px;
+    padding: 150px 0 80px 0;
 }
 
 .table__party {
@@ -182,7 +227,7 @@ main {
 
 .party__time {
     font-weight: 700;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.3px;
     padding: 20px 40px;
     background-image: url("../images/background.png");
     background-size: cover;
@@ -192,8 +237,8 @@ main {
 
 .party__text {
     font-weight: 300;
-    line-height: 74.51px;
-    letter-spacing: 0.28px;
+    line-height: 74.5px;
+    letter-spacing: 0.3px;
     margin-top: 65px;
 
 }
@@ -202,6 +247,29 @@ main {
     max-width: 24%;
     margin: -20px 0 0 1100px;
 }
+
+@media (max-width: 1200px) {
+    .left__image {
+        margin: -30px 0 0 -400px; 
+    }
+    
+    .party__content {
+        padding: 130px 0 80px 0;
+        margin-left: 250px;
+    }
+    .party__title {
+        padding: 15px 30px 15px 30px;
+    }
+    
+    .party__time {
+        padding: 10px 30px;
+
+    }
+
+    .right__image {
+        margin: -30px 0 0 800px;
+    }
+    }
 
 // /======================/ 
 .menu__container {
