@@ -1,0 +1,94 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	color: $color1;
+	font: $font-size-small/1 $primary-font
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 20px;
+	font-family: $primary-font;
+	line-height: 1;
+	font-weight: normal;
+}
+h1 {
+	font-size: $font-size-large;
+}
+h2 {
+	font-size: $font-size-big;
+}
+h3 {
+	font-size: ;
+}
+h4 {
+	font-size: ;
+}
+h5 {
+	font-size: ;
+}
+h6 {
+	font-size: ;
+}
+p {
+	margin: 0 0 10px;
+	&:last-child {
+		margin: 0;
+	}
+}
+strong, b {
+	font-weight: normal;
+	font-family: $primary-font--bold;
+	i, em {
+		font-family: $primary-font--italic;
+	}
+}
+pre {
+	overflow: hidden;
+}
+i, em, cite, address {
+	font-style: normal;
+	font-family: $primary-font--italic;
+	strong, b {
+	font-family: $primary-font--bold;
+	}
+}
+a {
+	color: $color2;;
+	text-decoration: none;
+	&:hover,
+	&:active,
+	&:focus {
+		text-decoration: underline;
+		color: $color3;
+	}
+	&[href^="tel"],
+	&[href^="fax"] {
+		pointer-events: none;
+		cursor: default;
+	}
+}
+hr {
+	border-bottom: $color4;
+	border-width: 0 0 1px;
+	margin: $space-small 0;
+	width: 100%;
+	clear: both;
+}
+blockquote {
+	margin: 10px 10px 42px 0;
+	padding-left: 10px;
+	border-left: 10px solid $color1;
+}
+img,
+picture {
+	margin: 0;
+	max-width: 100%;
+}
