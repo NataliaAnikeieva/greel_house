@@ -21,49 +21,45 @@
     <header  class="header">
         <div  class="header__container">
             <h1 class="header__logo"><a href="#"><img src="images/Logo.png" alt="logo"></a></h1>
-           
-                <nav id="menu" class="navigation__body">  
-                    <ul class="navigation__list">
-                        <li class="navigation__item">
-                            <a href="#" class="navigation__link">Home</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a href="#" class="navigation__link">Menu</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a href="#" class="navigation__link">Specials</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a href="#" class="navigation__link">About</a>
-                        </li>
-                        <li class="navigation__item">
-                           <a href="#" class="navigation__link">Method</a>
-                        </li>
-                    
-                    </ul>
-                </nav>   
-          <div class="humburger">
+           <div class="header__menu">         
+             <nav id="menu" class="navigation__body">  
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Home</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Menu</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Specials</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">About</a>
+                </li>
+                <li class="navigation__item">
+                   <a href="#" class="navigation__link">Method</a>
+                </li>
+            </ul>
+        </nav>  </div>
+          <a href="#menu" class="humburger">
             <span></span>
-          </div>
+          </a>
          
         </div>
     </header>
     <main class="main">
         <div class="main__container">
-            <div class="party__section">
+            <div class="party__section border-section ">
                 <div class="left__image"><img src="images/beef.png" alt=""></div>
-                <div class="party__content">
-                    <div class="table__party">
-                        <h1 class="party__title">OPENING PARTY</h1>
-                        <p class="party__time">06/20/2020 - 7 P.M.</p>
-                    </div>
+                <div class="frame"> 
+                    <h2 class="frame__title party__title">OPENING PARTY</h2>
+                    <p class="frame__text party__time"><b> 06/20/2020 - 7 P.M.</b> </p>
+                </div>  
                     <div class="party__text">FOOD - MUSIC - FRIENDS - FUN</div>
-                </div>
                 <div class="right__image"><img src="images/chicken.png" alt=""></div>
-                
             </div>
-      <!-- ======================================================================================== -->
-            <div class="menu__container">
+      <!-- ===================================menu===================================================== -->
+            <div class="menu__section border-section">
                 <h2 class="menu__title">Menu</h2>
                 <ul class="menu__list">
                     <li class="menu__list-items">  
@@ -178,12 +174,58 @@
                     </div>
                     </li>
                 </ul>
-                
-       
-
             </div>  
- 
-
+            
+ <!-- --------------------------------discount ------------------------------>
+            <div class="discount__section border-section ">
+                <div class="discount__image"><img src="images/discount.png" alt=""></div>
+                 <div class="discount__text">
+                    <div class="discount__bodytext">Get a <br>
+                       <b>25% discount</b> <br>
+                        on your next dinner</div>
+                    <button class="dicount__button"><a href="#">Click Here</a></button>
+                    <div class="discount__logo"><img src="images/s-logo.png" alt=""></div>
+                    <div class="discount__title">The Meat Experience</div>
+                 </div>
+            </div> 
+<!----------------------------special ----------------------------->
+             <div class="special__section border-section">
+                <div class="special__text">
+                    <div class="frame"> 
+                        <h2 class="frame__title special__title">SPECIAL OF THE MONTH</h2>
+                        <p class="frame__text special__dish">Lorem Ipsum</p>
+                    </div> 
+                    <div class="special__bodytext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  nostrud exercitation ullamco laboris.</div>
+                </div>
+                <div class="special__images">
+                    <img src="images/special-corn.png" alt="" class="special__image1">
+                    <img src="images/spesial-dish.png" alt="" class="special__image2">
+                    <img src="images/special-knife.png" alt=""  class="special__image3">
+                    
+                    
+                </div>
+                
+             </div>
+ <!-- ============================method====================== -->
+             <div class="method__section border-section ">
+                <img src="images/method.png" alt="" class="method__image">
+                <div class="frame method__text"> 
+                    <h2 class="frame__title  method__title">Our Method</h2>
+                    <p class="frame__text method__bodytext">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p>
+                </div>     
+             </div>
+<!-- ===============================music====================== -->
+             <div class="music__section">
+                <div class="music__text">
+                    <div class="frame "> 
+                        <h2 class="frame__title music__title">LIVE MUSIC</h2>
+                        <p class="frame__text music__bodytext"><b>Jazz Night</b><br>
+                            Every Friday</p>
+                    </div>  
+                    <p class="music__right-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div class="music__images"><img src="images/music.png" alt=""></div>
+             </div>
 
         </div>
 
@@ -191,7 +233,44 @@
 
 
    
-    <footer class="footer">footer</footer>
+    <footer class="footer">
+        <div class="footer__container">
+            <a href="#" class="footer__logo"><img src="images/footer-logo.png" alt="" ></a>
+            <h4 class="footer__title">-The Meat Experience-</h4>
+            <div class="footer__text">
+                <div class="frame footer__frame">
+                    <h2 class="frame__title footer__frame-title">OPEN</h2>
+                    <p class="frame__text footer__bodytext">Mon.-Thurs.: 12AM - 11PM<br>
+                        Fri. - Sun.: 9AM - 12PM</p>
+                </div>
+                <div class="footer__textbody">
+                    <ul class="footer__list-left">
+                        <li class="footer__item"><a href="" class="footer__link">Home</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">About</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">Contact</a></li>
+                    </ul>
+                    <ul class="footer__list-right">
+                        <li class="footer__item"><a href="" class="footer__link">Blog</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">Coocies</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">Site map</a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="footer__contact">
+                    <div class="footer__address">Madison Street, 30 - City</div>
+                        <ul class="icons-list">
+                            <li class="icons-item"><a href=""><img src="images/Instagram.png" alt="" class="icons-link"></a></li>
+                            <li class="icons-item"><a href=""><img src="images/Facebook.png" alt="" class="icons-link"></a></li>
+                            <li class="icons-item"><a href=""><img src="images/Twitter.png" alt=""class="icons-link" ></a></li>
+                            <li class="icons-item"><a href=""><img src="images/Youtube.png" alt="" class="icons-link"></a></li>
+                            <li class="icons-item"><a href="" class="icons-link">@Grill_House</a></li>
+                        </ul>
+                 
+                </div>
+
+            </div>
+        </div>
+    </footer>
    </div>
 </body>
 </html>
