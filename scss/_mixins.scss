@@ -13,3 +13,10 @@
     }
     @return ($pxval / $base) * 1rem;
 }
+
+$vw-viewport: 1440; 
+@function get-vw($font){
+$vw-context: $vw-viewport * 0.01 * 1px;
+  @return $font / $vw-context * 1vw;
+  @return $font;
+}

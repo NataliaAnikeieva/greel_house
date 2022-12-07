@@ -16,15 +16,44 @@ h3,
 h4,
 h5,
 h6 {
-
 	font-family: $main-font;
 	line-height: 1;
-	font-weight: 700;
-    color: $color3;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+
+
+h2 {
+    text-shadow: 3px 17px 31px rgba(0, 0, 0, 0.78);
+    color: $color1;
+    font-family: $secondary-font;
+    font-size: get-vw($fs-xlg+9);
+    letter-spacing: 0.26px;
+    text-align: center;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: $fs-lg;
+    text-align: center;
+    letter-spacing: 0.37px;
+    color: $color3;
+}
+
+h4 {
+    font-family: $secondary-font;
+    font-size: get-vw($fs-md+5);
+    text-align: right;
+    letter-spacing: 0.49px;
+    color: $color2;
+    text-shadow: 1px 8px 16px rgba(0, 0, 0, 0.78);
+}
+
+h5 {
+    font-size: get-vw($fs-md+1);
+    text-align: left;
+    color: $color3;
+    width: 900;
 }
 
 strong, b {
